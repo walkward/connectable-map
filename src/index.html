@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+</head>
+<body>
+
+  <div>
+    <button id="delete-node" onclick="connectView.remove()">Delete</button>
+    <button id="add-node" onclick="connectView.add()">Add</button>
+    <button id="d3-zoom-in" onclick="connectView.zoomIn()">Zoom In</button>
+    <button id="d3-zoom-out" onclick="connectView.zoomOut()">Zoom Out</button>
+  </div>
+
+  <div class="connectView__wrapper"><svg class="connectView" width="400" height="800"></svg></div>
+
+</body>
+</html>
